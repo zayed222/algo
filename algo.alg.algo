@@ -1,0 +1,32 @@
+// nom de mon algorithme 
+ALGORITHM algorithm_name
+// je déclare mes variables 
+VAR
+    phrase : STRING;
+    car_courant : CHAR;
+    cpt_caractere : INTEGER :=0;
+
+    set_declarations
+// les étapes de la solution (corps=)
+BEGIN
+// pour écrire un message à l'utilisateur 
+    Write("Que dois je analyser svp!")     |
+    // lecture de ma variable 
+    Read ("phrase")                        |phrase="Bonjour".
+                                                // "0123456"
+    car_courant :=phrase [0]               |car_courant:='B'
+        WHILE (car_courant<> '.') DO       |car_courant :=''
+            // Notre compteur de caractère
+        // cpt_caractere := cpt_caractere+1; compteur de caractère : longueur de ma chaîne cptcar 1
+        // 
+        // les mots et test des caractères courant avec un espace
+        IF (car_courant ='') THEN
+        cptmot++
+            set_instructions
+        END_IF
+        // Changement 
+        car_courant := phrase[cpt_caractere]
+            set_instructions
+        END_WHILE
+    set_instructions
+END
